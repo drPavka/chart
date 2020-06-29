@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="js/Chart.min.js"></script><link href="css/index.css" rel="stylesheet"></link></head><body><main>
+  
+  
+  <h1 id="top">Reviewed fieldwork</h1><div>Generated at:
+            2020-06-29T14:18:52+03:00</div><ul class="menu"><li><li><a href="#idm32">Back End HAB</a></li><li><a href="#idm125">Undefined</a></li><li><a href="#idm456">Back End SPI</a></li><li><a href="#idm11489">Surface HAB</a></li></li></ul><section><h2 id="all">All files</h2><div class="total">
+            Total number of files:
+            180</div><script type="text/javascript">
+                const locationData = [
+                    {
+                        label:'Back End HAB',
+                        value: '36'
+                    },
+                    {
+                        label:'Undefined',
+                        value: '2'
+                    },
+                    {
+                        label:'Back End SPI',
+                        value: '140'
+                    },
+                    {
+                        label:'Surface HAB',
+                        value: '2'
+                    }];
+                const stateData=[
+                    {
+                    label:'Setout',
+                    value: '90'
+                    },
+                    {
+                    label:'As Built',
+                    value: '34'
+                    },
+                    {
+                    label:'Conformance',
+                    value: '21'
+                    },
+                    {
+                    label:'Undefined',
+                    value: '3'
+                    },
+                    {
+                    label:'Check',
+                    value: '8'
+                    },
+                    {
+                    label:'Pre-pour',
+                    value: '7'
+                    },
+                    {
+                    label:'Control',
+                    value: '4'
+                    },
+                    {
+                    label:'Pickup',
+                    value: '13'
+                    }];
+                const reviewStatusData=[
+                    {
+                    label:'Not For Import',
+                    value: '13'
+                    },
+                    {
+                    label:'Approved',
+                    value: '93'
+                    },
+                    {
+                    label:'Imported',
+                    value: '27'
+                    },
+                    {
+                    label:'Pending',
+                    value: '30'
+                    },
+                    {
+                    label:'Rejected',
+                    value: '1'
+                    }];
+
+                let locationStateData = [];
+            </script><div id="main_chart_container"><figure><canvas id="pie_by_locations"></canvas></figure><figure><canvas id="pie_by_states"></canvas></figure><figure><canvas id="pie_by_review_status"></canvas></figure></div></section><section id="idm32"><h2>Back End HAB</h2><div class="total">
+            Total number of files:
+            36</div><div>
+                    Time to upload: <span class="var todo">Min</span> / <span class="var todo">Max</span> / <span class="var todo">Average</span></div><div>
+                    Time since submission: <span class="var todo">Min</span> / <span class="var todo">Max</span> / <span class="var todo">Average</span></div><div>
+                    Time to Review: <span class="var todo">Min</span> / <span class="var todo">Max</span> / <span class="var todo">Average</span></div><figure><canvas id="idm32_pie_by_state"></canvas></figure><script>
+                    locationStateData.push(
+                            {
+                                canvas:'idm32_pie_by_state',
+                                title:'Back End HAB files by State',
+                                data:[
+                    
+                            {
+                            label:'Setout',
+                            value: '15'
+                            },
+                            {
+                            label:'As Built',
+                            value: '13'
+                            },
+                            {
+                            label:'Conformance',
+                            value: '4'
+                            },
+                            {
+                            label:'Check',
+                            value: '3'
+                            },
+                            {
+                            label:'Pre-pour',
+                            value: '1'
+                            },
+                    ]
+                            }
+                    );
+                </script><section><h4>Not processed files:
+                            8</h4><table border="0"><thead><tr><th>...</th><th>File Name</th><th>State</th><th>Surveyor</th><th>Comment</th><th>Time Since Submission</th></tr></thead><tbody><tr><td>1</td><td>XQ-BH_SO_20200520T1418_CBURKE-M AND E TRIAL.12dxmlz</td><td>Setout</td><td>Conor Burke</td><td>M AND E TRIAL</td><td data-convert-seconds="">3445252</td></tr><tr><td>2</td><td>BH_AB_20200524T1552_BHYDE-M160 NFC AB CH870 975.12dxmlz</td><td>As Built</td><td>Brady Hyde</td><td>M160 NFC AB CH870 975</td><td data-convert-seconds="">3094012</td></tr><tr><td>3</td><td>BH_AB_20200525T1350_BHYDE-M160 AC AB EDGES.12dxmlz</td><td>As Built</td><td>Brady Hyde</td><td>M160 AC AB EDGES</td><td data-convert-seconds="">3014932</td></tr><tr><td>4</td><td>BH_CH_20200528T2119_BHYDE-M160 CHK CRCP EDGE 2 3m.12dxmlz</td><td>Check</td><td>Brady Hyde</td><td>M160 CHK CRCP EDGE 2 3m</td><td data-convert-seconds="">2728792</td></tr><tr><td>5</td><td>BH_CH_20200528T2349_BHYDE-M160 CHK CRCP EDGE 2 3m.12dxmlz</td><td>Check</td><td>Brady Hyde</td><td>M160 CHK CRCP EDGE 2 3m</td><td data-convert-seconds="">2719792</td></tr><tr><td>6</td><td>BH_CH_20200602T0115_BHYDE-M160 CRCP RUN CHKING.12dxmlz</td><td>Check</td><td>Brady Hyde</td><td>M160 CRCP RUN CHKING</td><td data-convert-seconds="">2369032</td></tr><tr><td>7</td><td>BH_SO_20200611T1022_BHYDE-M160 CRCP EDGE FORM.12dxmlz</td><td>Setout</td><td>Brady Hyde</td><td>M160 CRCP EDGE FORM</td><td data-convert-seconds="">1558612</td></tr><tr><td>8</td><td>BH_AB_20200615T0831_BHYDE-M160 CRCP EDGE AB.12dxmlz</td><td>As Built</td><td>Brady Hyde</td><td>M160 CRCP EDGE AB</td><td data-convert-seconds="">1219672</td></tr></tbody></table></section><section><h4>Rejected files:
+                            1</h4><table border="0"><thead><tr><th>...</th><th>File Name</th><th>State</th><th>Surveyor</th><th>Comment</th></tr></thead><tbody><tr><td>1</td><td>BH_AB_20200524T1704_MMONK-TEST M170 Barrier.12dxmlz</td><td>As Built</td><td>Matt Monk</td><td>TEST M170 Barrier</td></tr></tbody></table></section><a href="#top" class="top">Top</a></section><section id="idm125"><h2>Undefined</h2><div class="total">
+            Total number of files:
+            2</div><div>
+                    Time to upload: <span class="var todo">Min</span> / <span class="var todo">Max</span> / <span class="var todo">Average</span></div><div>
+                    Time since submission: <span class="var todo">Min</span> / <span class="var todo">Max</span> / <span class="var todo">Average</span></div><div>
+                    Time to Review: <span class="var todo">Min</span> / <span class="var todo">Max</span> / <span class="var todo">Average</span></div><figure><canvas id="idm125_pie_by_state"></canvas></figure><script>
+                    locationStateData.push(
+                            {
+                                canvas:'idm125_pie_by_state',
+                                title:'Undefined files by State',
+                                data:[
+                    
+                            {
+                            label:'As Built',
+                            value: '2'
+                            },
+                    ]
+                            }
+                    );
+                </script><section></section><section></section><a href="#top" class="top">Top</a></section><section id="idm456"><h2>Back End SPI</h2><div class="total">
+            Total number of files:
+            140</div><div>
+                    Time to upload: <span class="var todo">Min</span> / <span class="var todo">Max</span> / <span class="var todo">Average</span></div><div>
+                    Time since submission: <span class="var todo">Min</span> / <span class="var todo">Max</span> / <span class="var todo">Average</span></div><div>
+                    Time to Review: <span class="var todo">Min</span> / <span class="var todo">Max</span> / <span class="var todo">Average</span></div><figure><canvas id="idm456_pie_by_state"></canvas></figure><script>
+                    locationStateData.push(
+                            {
+                                canvas:'idm456_pie_by_state',
+                                title:'Back End SPI files by State',
+                                data:[
+                    
+                            {
+                            label:'Setout',
+                            value: '75'
+                            },
+                            {
+                            label:'As Built',
+                            value: '19'
+                            },
+                            {
+                            label:'Conformance',
+                            value: '17'
+                            },
+                            {
+                            label:'Undefined',
+                            value: '3'
+                            },
+                            {
+                            label:'Check',
+                            value: '5'
+                            },
+                            {
+                            label:'Pre-pour',
+                            value: '6'
+                            },
+                            {
+                            label:'Control',
+                            value: '4'
+                            },
+                            {
+                            label:'Pickup',
+                            value: '11'
+                            }
+                    ]
+                            }
+                    );
+                </script><section><h4>Not processed files:
+                            47</h4><table border="0"><thead><tr><th>...</th><th>File Name</th><th>State</th><th>Surveyor</th><th>Comment</th><th>Time Since Submission</th></tr></thead><tbody><tr><td>1</td><td>BS_SO_20200514T1117_THUYNH-M180 SO BLINDING CH1555 1640.12dxmlz</td><td>Setout</td><td>Thien Huynh</td><td>M180 SO BLINDING CH1555 1640</td><td data-convert-seconds="">3974512</td></tr><tr><td>2</td><td>BS_SO_20200515T1322_THUYNH-M190 SO CRCP ch1320 1445.12dxmlz</td><td>Setout</td><td>Thien Huynh</td><td>M190 SO CRCP ch1320 1445</td><td data-convert-seconds="">3880612</td></tr><tr><td>3</td><td>BS_CO_20200518T1112_ACOLES-M180 blinding conformance.12dxmlz</td><td>Conformance</td><td>Andrew Coles</td><td>M180 blinding conformance</td><td data-convert-seconds="">3629212</td></tr><tr><td>4</td><td>XS-BS_XX_20200519T1521_LJOYES-MSD1 PU DYKE SO SUBG.12dxmlz</td><td>Undefined</td><td>Leighton Joyes</td><td>MSD1 PU DYKE SO SUBG</td><td data-convert-seconds="">3527872</td></tr><tr><td>5</td><td>BS_SO_20200521T1359_ACOLES-M180 pit bases.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M180 pit bases</td><td data-convert-seconds="">3359992</td></tr><tr><td>6</td><td>BS_PP_20200522T0857_THUYNH-M190 SO CRCP LN3 ch1320.12dxmlz</td><td>Pre-pour</td><td>Thien Huynh</td><td>M190 SO CRCP LN3 ch1320</td><td data-convert-seconds="">3291712</td></tr><tr><td>7</td><td>BS_PP_20200521T0731_THUYNH-M190 PP CRCP CH1320 1440.12dxmlz</td><td>Pre-pour</td><td>Thien Huynh</td><td>M190 PP CRCP CH1320 1440</td><td data-convert-seconds="">3383272</td></tr><tr><td>8</td><td>BS_AB_20200525T0901_ACOLES-M180 drainage pipe.12dxmlz</td><td>As Built</td><td>Andrew Coles</td><td>M180 drainage pipe</td><td data-convert-seconds="">3032272</td></tr><tr><td>9</td><td>BS_SO_20200525T1034_ACOLES-M180 drainage trench.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M180 drainage trench</td><td data-convert-seconds="">3026692</td></tr><tr><td>10</td><td>BS_SO_20200526T0733_THUYNH-M190 SO CRCP LN4 ch1320 1440.12dxmlz</td><td>Setout</td><td>Thien Huynh</td><td>M190 SO CRCP LN4 ch1320 1440</td><td data-convert-seconds="">2951152</td></tr><tr><td>11</td><td>BS_SO_20200526T0931_ACOLES-M180 Blinding Pins.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M180 Blinding Pins</td><td data-convert-seconds="">2944072</td></tr><tr><td>12</td><td>BS_CH_20200526T1409_THUYNH-M190 CH CRCP CH1320 1440 ln4.12dxmlz</td><td>Check</td><td>Thien Huynh</td><td>M190 CH CRCP CH1320 1440 ln4</td><td data-convert-seconds="">2927392</td></tr><tr><td>13</td><td>XQ-BS_CT_20200527T1451_LJOYES-M110 Temp CONTROL.12dxmlz</td><td>Control</td><td>Leighton Joyes</td><td>M110 Temp CONTROL</td><td data-convert-seconds="">2838472</td></tr><tr><td>14</td><td>BS_PP_20200529T0744_THUYNH-M190 PP CRCP SHOULER CH1320.12dxmlz</td><td>Pre-pour</td><td>Thien Huynh</td><td>M190 PP CRCP SHOULER CH1320</td><td data-convert-seconds="">2691292</td></tr><tr><td>15</td><td>BS_PU_20200529T0807_THUYNH-M190 PU EXC XP4 Floor.12dxmlz</td><td>Pickup</td><td>Thien Huynh</td><td>M190 PU EXC XP4 Floor</td><td data-convert-seconds="">2689912</td></tr><tr><td>16</td><td>BS_AB_20200601T1016_LJOYES-M190 AB PVMT CRCP CH1333 1434.12dxmlz</td><td>As Built</td><td>Leighton Joyes</td><td>M190 AB PVMT CRCP CH1333 1434</td><td data-convert-seconds="">2422972</td></tr><tr><td>17</td><td>BS_AB_20200602T1027_ACOLES-M180 drainage pits.12dxmlz</td><td>As Built</td><td>Andrew Coles</td><td>M180 drainage pits</td><td data-convert-seconds="">2335912</td></tr><tr><td>18</td><td>BS_SO_20200602T0918_ACOLES-M180 drainage pits.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M180 drainage pits</td><td data-convert-seconds="">2340052</td></tr><tr><td>19</td><td>BS_SO_20200602T1050_THUYNH-M190 SO XP04 FSL.12dxmlz</td><td>Setout</td><td>Thien Huynh</td><td>M190 SO XP04 FSL</td><td data-convert-seconds="">2334532</td></tr><tr><td>20</td><td>BS_AB_20200602T1414_ACOLES-M180 missing corner pit.12dxmlz</td><td>As Built</td><td>Andrew Coles</td><td>M180 missing corner pit</td><td data-convert-seconds="">2322292</td></tr><tr><td>21</td><td>BS_AB_20200603T0831_ACOLES-M180 pit 16 reinstall.12dxmlz</td><td>As Built</td><td>Andrew Coles</td><td>M180 pit 16 reinstall</td><td data-convert-seconds="">2256472</td></tr><tr><td>22</td><td>BS_AB_20200604T1307_ACOLES-M180 junc pit.12dxmlz</td><td>As Built</td><td>Andrew Coles</td><td>M180 junc pit</td><td data-convert-seconds="">2153512</td></tr><tr><td>23</td><td>BS_PU_20200604T1336_ACOLES-M180 subsoil rls 4 vivek.12dxmlz</td><td>Pickup</td><td>Andrew Coles</td><td>M180 subsoil rls 4 vivek</td><td data-convert-seconds="">2151772</td></tr><tr><td>24</td><td>BS_SO_20200603T1522_ACOLES-M180 CP4 combined trench.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M180 CP4 combined trench</td><td data-convert-seconds="">2231812</td></tr><tr><td>25</td><td>BS_SO_20200604T0758_ACOLES-M180 junction pit base.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M180 junction pit base</td><td data-convert-seconds="">2172052</td></tr><tr><td>26</td><td>BS_SO_20200604T0852_ACOLES-M180 comb services trench tbc.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M180 comb services trench tbc</td><td data-convert-seconds="">2168812</td></tr><tr><td>27</td><td>BS_SO_20200604T0947_ACOLES-M180 junc pit reset.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M180 junc pit reset</td><td data-convert-seconds="">2165512</td></tr><tr><td>28</td><td>BS_SO_20200604T1021_ACOLES-M180 comb serv trench CAP.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M180 comb serv trench CAP</td><td data-convert-seconds="">2163472</td></tr><tr><td>29</td><td>BS_SO_20200604T1234_ACOLES-M180 comb serv trench xp05.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M180 comb serv trench xp05</td><td data-convert-seconds="">2155492</td></tr><tr><td>30</td><td>BS_SO_20200604T1042_LJOYES-M110 M120 SO DRN RM   COMB SER.12dxmlz</td><td>Setout</td><td>Leighton Joyes</td><td>M110 M120 SO DRN RM   COMB SER</td><td data-convert-seconds="">2162212</td></tr><tr><td>31</td><td>BS_CH_20200605T1141_ACOLES-M180 subsoil trench xp4.12dxmlz</td><td>Check</td><td>Andrew Coles</td><td>M180 subsoil trench xp4</td><td data-convert-seconds="">2072272</td></tr><tr><td>32</td><td>BS_PU_20200605T1327_ACOLES-M180 services trench location.12dxmlz</td><td>Pickup</td><td>Andrew Coles</td><td>M180 services trench location</td><td data-convert-seconds="">2065912</td></tr><tr><td>33</td><td>BS_SO_20200605T1230_ACOLES-M180 ss blinding.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M180 ss blinding</td><td data-convert-seconds="">2069332</td></tr><tr><td>34</td><td>BS_CO_20200604T0846_THUYNH-M190 CO BLINDING CH1240 70.12dxmlz</td><td>Conformance</td><td>Thien Huynh</td><td>M190 CO BLINDING CH1240 70</td><td data-convert-seconds="">2169172</td></tr><tr><td>35</td><td>BS_SO_20200605T0953_THUYNH-M120 SO DR PIT PIPE CH1355.12dxmlz</td><td>Setout</td><td>Thien Huynh</td><td>M120 SO DR PIT PIPE CH1355</td><td data-convert-seconds="">2078752</td></tr><tr><td>36</td><td>BS_PU_20200609T1008_ACOLES-M180 subsoil blinding.12dxmlz</td><td>Pickup</td><td>Andrew Coles</td><td>M180 subsoil blinding</td><td data-convert-seconds="">1732252</td></tr><tr><td>37</td><td>BS_SO_20200610T1440_THUYNH-M190 SO BLINDING DRNG PIT PIPE.12dxmlz</td><td>Setout</td><td>Thien Huynh</td><td>M190 SO BLINDING DRNG PIT PIPE</td><td data-convert-seconds="">1629532</td></tr><tr><td>38</td><td>BS_SO_20200610T1542_ACOLES-M180 drainage cp6 to cp7 12dcr.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M180 drainage cp6 to cp7 12dcr</td><td data-convert-seconds="">1625812</td></tr><tr><td>39</td><td>BS_SO_20200611T0913_THUYNH-M190 SO DR PIT PIPE BLINDING.12dxmlz</td><td>Setout</td><td>Thien Huynh</td><td>M190 SO DR PIT PIPE BLINDING</td><td data-convert-seconds="">1562752</td></tr><tr><td>40</td><td>BS_AB_20200611T1042_ACOLES-M180 subsoil CP4 CP5.12dxmlz</td><td>As Built</td><td>Andrew Coles</td><td>M180 subsoil CP4 CP5</td><td data-convert-seconds="">1557412</td></tr><tr><td>41</td><td>BS_SO_20200611T1545_LJOYES-M120H SO RM DRNG PIT HV.12dxmlz</td><td>Setout</td><td>Leighton Joyes</td><td>M120H SO RM DRNG PIT HV</td><td data-convert-seconds="">1539232</td></tr><tr><td>42</td><td>BS_AB_20200612T0849_THUYNH-XP04 AB INV TRENCH 1050 BLWR.12dxmlz</td><td>As Built</td><td>Thien Huynh</td><td>XP04 AB INV TRENCH 1050 BLWR</td><td data-convert-seconds="">1477792</td></tr><tr><td>43</td><td>BS_SO_20200612T0835_THUYNH-XP04 SO EXC LVL.12dxmlz</td><td>Setout</td><td>Thien Huynh</td><td>XP04 SO EXC LVL</td><td data-convert-seconds="">1478632</td></tr><tr><td>44</td><td>BS_SO_20200612T0916_ACOLES-M120 cross drain.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>M120 cross drain</td><td data-convert-seconds="">1476172</td></tr><tr><td>45</td><td>BS_SO_20200612T1011_ACOLES-MDS1 HV Trench.12dxmlz</td><td>Setout</td><td>Andrew Coles</td><td>MDS1 HV Trench</td><td data-convert-seconds="">1472872</td></tr><tr><td>46</td><td>BS_SO_20200612T1208_THUYNH-XP04 SO FOW 750 OS.12dxmlz</td><td>Setout</td><td>Thien Huynh</td><td>XP04 SO FOW 750 OS</td><td data-convert-seconds="">1465852</td></tr><tr><td>47</td><td>BS_SO_20200612T1312_THUYNH-M190 SO BLINDING CH1115.12dxmlz</td><td>Setout</td><td>Thien Huynh</td><td>M190 SO BLINDING CH1115</td><td data-convert-seconds="">1462012</td></tr></tbody></table></section><section></section><a href="#top" class="top">Top</a></section><section id="idm11489"><h2>Surface HAB</h2><div class="total">
+            Total number of files:
+            2</div><div>
+                    Time to upload: <span class="var todo">Min</span> / <span class="var todo">Max</span> / <span class="var todo">Average</span></div><div>
+                    Time since submission: <span class="var todo">Min</span> / <span class="var todo">Max</span> / <span class="var todo">Average</span></div><div>
+                    Time to Review: <span class="var todo">Min</span> / <span class="var todo">Max</span> / <span class="var todo">Average</span></div><figure><canvas id="idm11489_pie_by_state"></canvas></figure><script>
+                    locationStateData.push(
+                            {
+                                canvas:'idm11489_pie_by_state',
+                                title:'Surface HAB files by State',
+                                data:[
+                    
+                            {
+                            label:'Pickup',
+                            value: '2'
+                            }
+                    ]
+                            }
+                    );
+                </script><section><h4>Not processed files:
+                            2</h4><table border="0"><thead><tr><th>...</th><th>File Name</th><th>State</th><th>Surveyor</th><th>Comment</th><th>Time Since Submission</th></tr></thead><tbody><tr><td>1</td><td>SH_PU_20200604T0940_BHYDE-M160 M170 BOREHOLE PICKUP.12dxmlz</td><td>Pickup</td><td>Brady Hyde</td><td>M160 M170 BOREHOLE PICKUP</td><td data-convert-seconds="">2165932</td></tr><tr><td>2</td><td>SH_PU_20200611T1250_BHYDE-M170 SHEAR WALL PICKUP.12dxmlz</td><td>Pickup</td><td>Brady Hyde</td><td>M170 SHEAR WALL PICKUP</td><td data-convert-seconds="">1549732</td></tr></tbody></table></section><section></section><a href="#top" class="top">Top</a></section>
+</main><script src="js/index.js"></script><script src="js/utils.js"></script></body></html>
